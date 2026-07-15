@@ -1,15 +1,11 @@
 import Navbar from "../components/Navbar/Navbar";
+import Hero from "../components/Hero/Hero";
 
 function Home() {
   return (
     <>
       <Navbar />
-
-      <div style={{ padding: "60px", textAlign: "center" }}>
-        <h1>Welcome to Stone Code Studio</h1>
-
-        <p>Build. Create. Connect.</p>
-      </div>
+      <Hero />
     </>
   );
 }
