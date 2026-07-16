@@ -1,6 +1,12 @@
+import LoginForm from "../../components/Auth/LoginForm";
+
 function Login() {
   return (
-    <h1>🔐 Login Page</h1>
+    <section className="auth-page">
+      <div className="auth-shell">
+        <LoginForm />
+      </div>
+    </section>
   );
 }
 

@@ -1,6 +1,18 @@
+import Navbar from "../../components/Navbar/Navbar";
+import Hero from "../../components/Hero/Hero";
+import Features from "../../components/Features";
+import Statistics from "../../components/Statistics";
+import Footer from "../../components/Footer/Footer";
+
 function Home() {
   return (
-    <h1>🏠 Home Page</h1>
+   <>
+  <Navbar />
+  <Hero />
+  <Features />
+  <Statistics />
+  <Footer />
+   </>
   );
 }
 

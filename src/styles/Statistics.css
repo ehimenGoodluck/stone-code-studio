@@ -1,0 +1,37 @@
+.statistics {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 80px 50px;
+}
+
+.statistics h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.statistics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.statistics-card {
+  background: #1f2937;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.statistics-card h1 {
+  font-size: 50px;
+}
+
+.statistics-card h3 {
+  font-size: 32px;
+  margin: 15px 0;
+  color: #38bdf8;
+}
+
+.statistics-card p {
+  color: #d1d5db;
+}

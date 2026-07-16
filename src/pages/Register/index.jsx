@@ -1,6 +1,12 @@
+import RegisterForm from "../../components/Auth/RegisterForm";
+
 function Register() {
   return (
-    <h1>📝 Register Page</h1>
+    <section className="auth-page">
+      <div className="auth-shell">
+        <RegisterForm />
+      </div>
+    </section>
   );
 }
 

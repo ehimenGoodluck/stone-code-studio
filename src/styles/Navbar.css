@@ -50,3 +50,16 @@
     background: #3b82f6;
     color: white;
 }
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+}
